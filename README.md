@@ -12,4 +12,8 @@ when you generate series    fibonacci(5) it will caluclate like this
 so as you can see to calucalte fibonacci(5) total 8 executions were made which is
 going to slow down for larger numbers
 
-
+fibonaci_memoization.py uses a memoization teqniue which is for faster exection.
+#Memoization
+Storing the results of functions in a cache, and then returing the stored value
+when a function is called with same arguments, here we are using functools modules
+which have LRU cache implmented
